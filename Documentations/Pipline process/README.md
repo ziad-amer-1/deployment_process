@@ -18,7 +18,7 @@
 
 - For accessing the application please visit: http://udagram-frontend-ziad-amer.s3-website-us-east-1.amazonaws.com but please make sure you are using a browser that doesn't enforce CORS policy** or blocking the user of the EB avs URL by the S3 URL.
 
-- For accessing my github repository which is linked to circleci, please visit: https://github.com/ziad-amer-1/deployment_process_udacity Udacity deployment
+- For accessing my github repository which is linked to circleci, please visit: https://github.com/ziad-amer-1/deployment_process Udacity deployment
 
 
 ## pipeline process inside circleci. # Continuous integration:
