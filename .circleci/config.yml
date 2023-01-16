@@ -11,7 +11,9 @@ jobs:
       - image: "cimg/base:stable"
     # setting up all the softwares used for installation, building and deploying the application.
     steps:
-      - node/install
+      - node/install:
+          node-version: '16.0.0'
+      - run: node --version
       - checkout
       - aws-cli/setup
       - eb/setup
