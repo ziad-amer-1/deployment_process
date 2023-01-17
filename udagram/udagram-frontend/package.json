@@ -7,7 +7,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "npm install -f && npm run build && aws s3 cp --recursive --acl public-read ./www s3://udagram-frontend-ziad-amer/",
+    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://udagram-frontend-ziad-amer/",
     "test": "echo \"no test specified\"",
     "lint": "ng lint",
     "e2e": "ng e2e"
